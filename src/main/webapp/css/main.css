@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px; /* Increased padding for better spacing */
+    border: 2px solid #e60000;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4 {
+    color: #e60000;
+    font-size: 24px; /* Consistent size, adjust as needed */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Shadow for headings */
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 15px; /* Increased for spacing */
+}
+
+label {
+    color: #000000; /* Black for clear visibility */
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: block;
+    margin-bottom: 8px; /* Increased for spacing */
+    text-align: left;
+    padding-left: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], textarea, select {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 8px;
+    margin-bottom: 15px; /* Spacing between fields */
+    border: 1px solid #e60000;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+textarea {
+    height: 100px; /* Fixed height for consistency */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #e60000;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #e60000;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+a {
+    color: #e60000;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 8px; /* Increased for spacing */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.error, .success {
+    color: #e60000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px; /* Increased for spacing */
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #e60000;
+    border-radius: 5px;
+}
+
+.btn-link, .submit-btn, .add-link, .back-link {
+    display: inline-block;
+    margin: 5px 10px; /* Increased for spacing */
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #e60000;
+    color: white;
+    border: 1px solid #e60000;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-link:hover, .submit-btn:hover, .add-link:hover, .back-link:hover {
+    background-color: #cc0000; /* Slightly darker red */
+}
+
+.footer-links a {
+    color: #e60000;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 12px; /* Increased for spacing */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
